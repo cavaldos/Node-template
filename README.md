@@ -4,6 +4,10 @@
 
 <br />
 
+![Screenshot from 2022-12-11 19-30-20](./screenshot/pic.png)
+
+
+
 ## Manual Installation
 
 1. Clone project
