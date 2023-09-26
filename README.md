@@ -25,37 +25,37 @@ mv  Node-template New-name
 3. Move path
 
 ```shell
-- cd New-name
+cd New-name
 ```
 
 4. Delete git
 
 ```shell
-- rm -rf .git
+rm -rf .git
 ```
 
 5. Install
 
 ```shell
-- yarn add  # npm install  # pnpm install
+yarn add  # npm install  # pnpm install
 ```
 
 6. Run Production
 
 ```shell
-- yarn run  start:prod
+yarn run  start:prod
 ```
 
 8. Run Development
 
 ```shell
-- yarn run dev
+yarn run dev
 ```
 
 9. Build
 
 ```shell
-- yarn run build
+yarn run build
 ```
 
 ## Docker
