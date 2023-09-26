@@ -1,5 +1,7 @@
 # Node-template 🌈"💯👍💡 ⭐️ 🔥
-### Node.js   TypeScript   Express.js
+
+### Node.js TypeScript Express.js
+
 <br />
 
 ## Manual Installation
@@ -51,7 +53,26 @@ mv  Node-template New-name
 ```shell
 - yarn run build
 ```
+
+## Docker
+
+### Build docker
+
+1.Build your updated version of the image, using the `docker build` command.
+
+```shell
+docker build -t  project-name .
+```
+
+2.Start a new container using the updated code.
+
+```shell
+docker run -dp 3000:3000  project-name .
+
+```
+
 ## Table of Contents
+
 <br />
 
 ## [Features](#features)
@@ -59,11 +80,12 @@ mv  Node-template New-name
 <br />
 
 ## [Environment Variables](#environment-variables)
+
 ```shell
 PORT=3000
 ```
-<br />
 
+<br />
 
 ## [Project Structure](#project-structure)
 
@@ -76,7 +98,7 @@ PORT=3000
 │  │  │   └─ index.ts
 │  │  ├─ routes
 │  │  │  └─ index.ts
-│  │  └─ validators 
+│  │  └─ validators
 │  │     └─ index.ts
 │  ├─ config
 │  │  └─ index.ts
@@ -97,23 +119,22 @@ PORT=3000
 └─ package.json
 ```
 
-
 ## [API Documentation](#api-documentation)
-
-
 
 ### API Endpoints
 
-List of available routes:  
-  
+List of available routes:
+
 **User Auth Routes**:
+
 - is coming soon
 
 **User Edit Routes**:
+
 - is coming soon
 
-
 **Other User Routes**:
--  is coming soon
+
+- is coming soon
 
 <br />
