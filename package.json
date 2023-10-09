@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "start:prod": "tsc dist/main.js",
-    "dev": "tsnd --respawn  main.ts",
+    "dev": "tsnd --respawn  src/main.ts",
     "build": "tsc main.ts --outDir ./build"
   },
   "dependencies": {

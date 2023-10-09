@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const morgan = require("morgan");
 const cors = require("cors");
 var colors = require("ansicolors");
-const networkInterfaces = require("./src/config/IP.ts");
+const networkInterfaces = require("./config/IP.ts");
 const IP = networkInterfaces.getIPAddresses();
 
 app.use(express.json());
